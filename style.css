@@ -79,14 +79,11 @@ span {
 
 li {
   justify-content: left;
-  /* display: flex; */
-  /* float: left; */
 }
 
 li a {
   display: flex;
   flex-wrap: wrap;
-  /* display: block; */
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -98,9 +95,6 @@ li a {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  /* align-self: center;
-  display: inline-block;
-  text-align: center; */
 }
 .aboutMeText p {
   padding: 3em;
@@ -117,7 +111,6 @@ li a {
 .aboutMeText img {
   float: left;
   max-width: 100%;
-  /* height: 500px; */
   border-radius: 50%;
   margin-top: -60px;
 }
@@ -132,7 +125,7 @@ li a {
 }
 
 .sections-header {
-  /*   text-align: center; */
+  text-align: center;
   text-transform: uppercase;
   font-family: "Leckerli One", cursive;
   font-size: 2em;
